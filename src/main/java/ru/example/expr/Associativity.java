@@ -1,4 +1,13 @@
 package ru.example.expr;
 
-public class Associativity {
+/**
+ * Ассоциативность бинарной операции.
+ */
+public enum Associativity {
+
+    /** Левоассоциированная операция. */
+    LEFT,
+
+    /** Правоассоциированная операция. */
+    RIGHT
 }
